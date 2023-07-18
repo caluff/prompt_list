@@ -1,3 +1,4 @@
+import {Feed} from '../components/index'
 export default function Home() {
   return (
       <section className={"w-full flex-center flex-col"}>
@@ -11,6 +12,7 @@ export default function Home() {
         <p className={"mt-5 text-lg text-gray-600 sm:text-xl max-w-2xl text-center"}>
           Prompts List is an open-source AI prompting tool for modern world to discover, create and share creative prompts
         </p>
+          <Feed/>
       </section>
   )
 }
